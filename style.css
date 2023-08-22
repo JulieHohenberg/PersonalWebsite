@@ -1,0 +1,139 @@
+body {
+    background-color: #E9EDC9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #CCD5AE;
+    padding: 15px;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    color: #717744;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 40px 15%;
+}
+
+.info-section {
+    background-color: #FEFAE0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+p {
+    margin-top: 10px;
+    color: #0d2818;
+}
+
+a {
+    color: #717744;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #5a5a3b;
+}
+body {
+    background-color: #E9EDC9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #CCD5AE;
+    padding: 15px;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    color: #717744;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 40px 15%;
+}
+
+.info-section {
+    background-color: #FEFAE0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+p {
+    margin-top: 10px;
+    color: #0d2818;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    background-color: #FEFAE0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.tooltip:hover{
+    background-color: #faefae;
+
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #717744;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    
+    /* Updated positioning for the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -100px; /* Use half of the tooltip width to center it */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+li:hover{
+    background-color: #CCD5AE;
+    font-size: 110%;
+}
+a {
+    color: #717744;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #41412b;
+    font-size: 110%;
+}
