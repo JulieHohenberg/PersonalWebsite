@@ -113,7 +113,7 @@ p {
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 200px;
+    width: 500px;
     background-color: #717744;
     color: #fff;
     text-align: center;
@@ -124,11 +124,11 @@ p {
     /* Updated positioning for the tooltip */
     position: absolute;
     z-index: 1;
-    top: 150%;
+    top: 120%;
     left: 50%;
-    margin-left: -100px; /* Use half of the tooltip width to center it */
+    margin-left: -250px; /* Use half of the tooltip width to center it */
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 1.0s;
 }
 
 .tooltip:hover .tooltiptext {
