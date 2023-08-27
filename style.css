@@ -1,7 +1,7 @@
 body {
     background-color: #E9EDC9;
     font-family: 'Ubuntu';
-    font-size: 100%;
+    /*font-size: 100%;*/
     margin: 0;
     padding: 0;
 }
@@ -102,6 +102,7 @@ p {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
+    font-size: 90%;
 }
 
 .tooltip:hover{
